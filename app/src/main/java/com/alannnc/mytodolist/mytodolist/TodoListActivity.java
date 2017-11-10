@@ -16,6 +16,7 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,7 +26,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
-public class TodoListActivity extends ActionBarActivity {
+public class TodoListActivity extends AppCompatActivity {
 
     private DBManager dbManager;
 
